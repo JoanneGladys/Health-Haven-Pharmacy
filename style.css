@@ -1,0 +1,43 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-section{
+padding: 15px;
+}
+
+.about-container {
+display: flex;
+align-items: center;
+gap: 30px;
+justify-content: space-evenly;
+}
+.about-image img{
+border: 80px;
+}
+
+.about-text h3{
+    font-size: 30px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.about-text p {
+    font-size: 20px;
+    color: black;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about-text button{
+    padding: 15px 30px;
+    font-size: 24px;
+    color: black;
+    background-color: aqua;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
